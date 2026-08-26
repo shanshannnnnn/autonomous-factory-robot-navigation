@@ -1,0 +1,22 @@
+# ---- ROS 2 / colcon build output -----------------------------------------
+build/
+install/
+log/
+*.pyc
+__pycache__/
+
+# ---- Generated action interfaces -----------------------------------------
+# Rebuilt by colcon from the .action definition
+my_robot_interfaces/build/
+my_robot_interfaces/install/
+
+# ---- Gazebo ---------------------------------------------------------------
+.gazebo/
+*.log
+
+# ---- Editors / OS ---------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
